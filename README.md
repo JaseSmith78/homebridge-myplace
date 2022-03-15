@@ -138,3 +138,17 @@ sudo npm install -g homebridge-example-plugin@beta
 ```
 
 
+## Design
+
+Global 
+- System Power
+- Fresh Air
+
+Rooms
+- If thermomiter fitted
+  - Set Point
+  - Current Temp
+- If not
+  - Dimmer, 0 - 100%
+
+If room mode set to off, close vent, setting mode to other sets global mode
